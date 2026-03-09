@@ -45,13 +45,6 @@ int main() {
     if(checkingFirstAlphabet(idn[0]) || checkingRest(idn) || checkingKeyword(idn))
         isValid = 0;
 
-    // if(isValid){
-    //     printf("Valid Identifier\n");
-    // }
-    // else{
-    //     printf("Invalid Identifier\n");
-    // }
-
     isValid? printf("Valid Indetifier\n") : printf("Invalid Indentfier\n");
 
     return 0;
